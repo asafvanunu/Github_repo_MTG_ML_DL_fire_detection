@@ -22,3 +22,32 @@ The repository includes the following architectures for fire prediction:
 The DL models rely solely on the 4-band multispectral image. 
 * **MAnet:** Configured with a Mix Vision Transformer encoder.
 * **Unet++:** Configured with an `se_resnext50_32x4d` encoder.
+
+## Installation
+
+You can replicate the environment using either Conda (Option 1) or Pip (Option 2).
+
+### Option 1: Conda Environment File (Recommended)
+This method automatically configures Python 3.9.23 and installs all dependencies using the provided configuration file.
+
+```bash
+# Create the environment from the environment.yml file
+conda env create -f environment.yml
+
+# Activate the environment
+conda activate mtg_fire_env
+```
+
+### Option 2: Pip Requirements File
+This method requires you to create the Python environment manually before installing the libraries via the requirements list.
+
+```bash
+# Create a new conda environment with the specific Python version
+conda create --name mtg_fire_env python=3.9.23 -y
+
+# Activate the environment
+conda activate mtg_fire_env
+
+# Install the required packages via pip
+pip install -r requirements.txt
+```

@@ -1,0 +1,9 @@
+# Python bytecode cache
+utils/__pycache__/
+
+# Development notebooks in utility folders
+utils/MTG_toolbox.ipynb
+
+# Deep and Machine Learning output imagery
+results/DL/*.tif
+results/ML/*.tif
