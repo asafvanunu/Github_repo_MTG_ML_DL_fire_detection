@@ -23,6 +23,17 @@ The DL models rely solely on the 4-band multispectral image.
 * **MAnet:** Configured with a Mix Vision Transformer encoder.
 * **Unet++:** Configured with an `se_resnext50_32x4d` encoder.
 
+### Prerequisites for Cloning
+
+This repository utilizes Git Large File Storage (Git LFS) to manage large deep learning model weights. If you are cloning the repository via the command line, ensure Git LFS is installed on your local system before cloning:
+
+```bash
+# Install Git LFS locally
+git lfs install
+
+# Clone the repository
+git clone [https://github.com/asafvanunu/Github_repo_MTG_ML_DL_fire_detection.git](https://github.com/asafvanunu/Github_repo_MTG_ML_DL_fire_detection.git)
+
 ## Installation
 
 You can replicate the environment using either Conda (Option 1) or Pip (Option 2).
